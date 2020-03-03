@@ -11,7 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
 
-  google_maps_flutter: ^0.5.21+6
+  google_maps_flutter: 
+    path: ../google_maps_flutter/google_maps_flutter
   dio: ^3.0.2
 
 dev_dependencies:
