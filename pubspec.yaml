@@ -12,7 +12,12 @@ dependencies:
     sdk: flutter
 
   google_maps_flutter: 
-    path: ../google_maps_flutter/google_maps_flutter
+    #path: ../google_maps_flutter/google_maps_flutter
+    git:
+      url: https://github.com/cylyl/plugins.git
+      path: packages/google_maps_flutter/google_maps_flutter
+      ref: fad13b633cbcda82848fd23de6901b8e46619c1c
+
   dio: ^3.0.2
 
 dev_dependencies:

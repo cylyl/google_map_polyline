@@ -11,7 +11,12 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
-  google_maps_flutter: ^0.5.21+6
+  google_maps_flutter:
+    #path: ../google_maps_flutter/google_maps_flutter
+    git:
+      url: https://github.com/cylyl/plugins.git
+      path: packages/google_maps_flutter/google_maps_flutter
+      ref: fad13b633cbcda82848fd23de6901b8e46619c1c
 
 dev_dependencies:
   flutter_test:
